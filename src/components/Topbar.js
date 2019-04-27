@@ -111,9 +111,7 @@ class Topbar extends Component {
     if(this.props.currentPath === '/signup') {
       return 2
     }
-    if(this.props.currentPath === '/wizard') {
-      return 3
-    }
+    
     if(this.props.currentPath === '/cards') {
       return 4
     }
@@ -133,7 +131,7 @@ class Topbar extends Component {
                     <Typography variant="h6" color="inherit" noWrap>
                       <Link to='/' className={classes.link}>
                         <img width={20} src={logo} alt="" />
-                        <span className={classes.tagline}>Material Sense</span>
+                        <span className={classes.tagline}>Arundo Hackathon - House Climate</span>
                       </Link>
                     </Typography>
                   </div>
@@ -141,7 +139,7 @@ class Topbar extends Component {
                     <React.Fragment>
                       <div className={classes.productLogo}>
                         <Typography>
-                          A material UI Template
+                          Get to know and control your house climate
                         </Typography>
                       </div>
                       <div className={classes.iconContainer}>
